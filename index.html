@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CodesWear</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .navbar-custom {
+        background-color: #212529;
+      }
+
+      .navbar-brand,
+      .nav-link {
+        color: #fff !important;
+      }
+
+      .nav-link:hover {
+        color: #f8f9fa !important;
+      }
+
+      .carousel-item img {
+        object-fit: cover;
+        height: 500px;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+      }
+
+      .footer-widget h6 {
+        font-size: 16px;
+        color: #fff;
+      }
+
+      .footer-widget ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .footer-widget ul li a {
+        color: #ccc;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      .footer-widget ul li a:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      .footer {
+        background-color: #212529;
+        color: #fff;
+        padding: 40px 0;
+      }
+
+      .footer a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="#">CodesWear</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/About.html">About</a>
+            </li>
+            
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact Us.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="p1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Check Out Our Products</h5>
+            <p>Show off your love for coding with stylish T-shirts featuring witty programming quotes and tech-inspired designs.</p>
+          </div>
+        </div>
+        
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Card Section -->
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s6.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 499</h5>
+              <p class="card-text">
+                Blend comfort and geeky style with high-quality coding T-shirts, perfect for casual wear, hackathons, and tech events.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s3.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 799</h5>
+              <p class="card-text">
+                Gift the perfect T-shirt for developers and tech enthusiasts who appreciate humor and creativity in their wardrobe.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s4.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 300</h5>
+              <p class="card-text">
+                Celebrate coding culture with unique T-shirts that bring the world of programming to life through fashion and design.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s6.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 499</h5>
+              <p class="card-text">
+                Blend comfort and geeky style with high-quality coding T-shirts, perfect for casual wear, hackathons, and tech events.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 500</h5>
+              <p class="card-text">
+                Wear your code proudly with T-shirts that feature iconic coding jokes, syntax, and tech memes.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s5.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 450</h5>
+              <p class="card-text">
+                Blend comfort and geeky style with high-quality coding T-shirts, perfect for casual wear, hackathons, and tech events.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s7.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 700</h5>
+              <p class="card-text">
+                Stay comfortable while coding in T-shirts that provide both style and a soft, relaxed fit for long coding sessions.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s10.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 499</h5>
+              <p class="card-text">
+                Tech fashion for the modern coder—our T-shirts are made to inspire and resonate with those who think in code.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s9.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 900</h5>
+              <p class="card-text">
+                Join the coding revolution with T-shirts that make a statement, sparking conversations and connections among fellow techies.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s8.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 350</h5>
+              <p class="card-text">
+                Code your personality into your outfit with unique T-shirt designs that speak to your favorite programming languages and technologies.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s11.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 670</h5>
+              <p class="card-text">
+                Express your inner geek with coding T-shirts that combine humor, tech references, and a passion for all things digital.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="s12.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs 850</h5>
+              <p class="card-text">
+                Blend comfort and geeky style with high-quality coding T-shirts, perfect for casual wear, hackathons, and tech events.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-widget">
+            <h6>Quick Links</h6>
+            <ul>
+              <li><a href="about-v1.html">About us</a></li>
+              <li><a href="contact-v1.html">Contact us</a></li>
+              <li><a href="career.html">Career</a></li>
+              <li><a href="sign-in.html">Sign in</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 footer-widget">
+            <h6>Community</h6>
+            <ul>
+              <li><a href="#">Documents</a></li>
+              <li><a href="faq.html">Faqs</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="blog-grid.html">News and blogs</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 footer-widget">
+            <h6>Follow Us</h6>
+            <div class="social-links">
+              <a href="#" class="text-white me-3">< </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
